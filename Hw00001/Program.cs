@@ -12,7 +12,7 @@ int[] randomArray = new int[a];
 
 void mas(int a)
 {
-for (int i = 0; i < a; i++)
+for (int i = 1; i < a; i++)
 {
 randomArray[i] = new Random().Next(1,9);
 Console.WriteLine(randomArray[i] + "");
@@ -23,7 +23,7 @@ Console.WriteLine(randomArray[i] + "");
 int kol(int[] randomArray)
 {
 int sum = 0;
-int i = 0;
+int i = 1;
 while (i < randomArray.Length)
 {
 sum = sum + randomArray[i];
